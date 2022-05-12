@@ -1,0 +1,14 @@
+*, *::after, *::before{
+  box-sizing: border-box;
+
+  padding: 0;
+  margin: 0;
+}
+
+:root{
+  --main-color: teal;
+  --hover-color: #006767;
+  --text-color: #fff;
+
+  
+}
