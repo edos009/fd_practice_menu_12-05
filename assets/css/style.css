@@ -52,7 +52,7 @@ nav{
   padding: 1em 1.5em;
 }
 
-.nav__list-item:hover .sub__nav__list{
+.nav__list-item:hover > .sub__nav__list{
   display: block;
 }
 
@@ -71,4 +71,15 @@ nav{
 .nav__list-item.sub__nav__list-item{
   border-left: none;
 }
+
+.sub__nav__list .sub__nav__list{
+  display: none;
+  width: 100%;
+
+  position: absolute;
+  top: 0;
+  left: 100%;
+}
+
+
 
